@@ -9,8 +9,6 @@ import Dropdown from '../Dropdown/Dropdown';
 import { useNavigate } from "react-router-dom";
 import axios from 'axios';
 
-
-
 function Main() {
   const [year, setYear] = useState("1학년");
   const [semester, setSemester] = useState("1학기");
@@ -28,23 +26,25 @@ function Main() {
   const navigate = useNavigate();
 
   const handleComplete = async () => {
+    // 학년, 학기, 전공학점, 교양학점 변환
     const data = {
-      year: year.replace("학년", "").trim(), // "1학년" -> "1"
+      year: year.replace("학년", "").trim(),  // "1학년" -> "1"
       semester: semester.replace("학기", "").trim(), // "1학기" -> "1"
-      major: department.trim(), // 학과 그대로 전송
+      major: department.trim(),  // 학과 그대로 전송
+      majorCredits: parseInt(majorrequired.replace("학점", "").trim()), // 전공 학점
+      electiveCredits: parseInt(generalCredit.replace("학점", "").trim()) // 교양 학점
     };
-  
+
     try {
-      // 백엔드로 POST 요청
-      await axios.post('http://localhost:8000/api/recommend', data);
-  
-      // 요청 성공 시 페이지 이동
-      navigate("/timetable");
+      // 백엔드 API에 데이터 전송
+      const response = await axios.post('http://localhost:8000/api/recommend', data);
+      navigate("/timetable"); // 결과 페이지로 이동
     } catch (error) {
       console.error('추천 요청 중 오류:', error.message);
-      alert('추천 요청 처리 중 오류가 발생했습니다.');
+      alert('원하시는 시간표가 존재하지 않습니다');
     }
   };
+
   
   
 

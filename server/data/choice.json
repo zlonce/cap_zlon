@@ -1,0 +1,5173 @@
+{
+    "21694-01": {
+        "name": "인간성장발달",
+        "pname": "김가은",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21694-02": {
+        "name": "인간성장발달",
+        "pname": "김가은",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "목",
+                "startTime": "14:30",
+                "endTime": "16:20"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44649-01": {
+        "name": "퍼스널브랜딩과이미지메이킹",
+        "pname": "김미성",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44650-01": {
+        "name": "생활속의창의적문제해결",
+        "pname": "정세영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44651-01": {
+        "name": "인문학적으로본중국식문화",
+        "pname": "최은정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44652-01": {
+        "name": "사람의마음을움직이는리더십",
+        "pname": "성영태",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "목",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44653-01": {
+        "name": "미디어로세상읽기",
+        "pname": "권오윤",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44654-01": {
+        "name": "AI와비주얼콘텐츠실습",
+        "pname": "Nam, Kristen Ko-Eun",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44655-01": {
+        "name": "합창과연주",
+        "pname": "김영미",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:00",
+                "endTime": "17:50"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44656-01": {
+        "name": "고전에서배우는삶의지혜",
+        "pname": "김서준",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44658-01": {
+        "name": "AI시대맥킨지식문제해결",
+        "pname": "변현섭",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44660-01": {
+        "name": "테크놀로지분쟁의이해",
+        "pname": "황원재",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44661-01": {
+        "name": "부동산거래와건강한경제생활",
+        "pname": "박성은",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44662-01": {
+        "name": "범죄와도덕적가치",
+        "pname": "허경미",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44664-01": {
+        "name": "장르문학으로바라본미래",
+        "pname": "김령희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44665-01": {
+        "name": "글로벌영어와문화",
+        "pname": "최진실",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44665-02": {
+        "name": "글로벌영어와문화",
+        "pname": "김우형",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44666-01": {
+        "name": "비주얼미디어와잉글리시커뮤니케이션",
+        "pname": "정현숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44666-02": {
+        "name": "비주얼미디어와잉글리시커뮤니케이션",
+        "pname": "손나경",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44666-51": {
+        "name": "비주얼미디어와잉글리시커뮤니케이션",
+        "pname": "김태영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            },
+            {
+                "day": "목",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44667-01": {
+        "name": "글로컬실용영어",
+        "pname": "신효정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44667-02": {
+        "name": "글로컬실용영어",
+        "pname": "이상혁",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44667-51": {
+        "name": "글로컬실용영어",
+        "pname": "김령희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:50",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44668-01": {
+        "name": "팝송으로배우는영어세계",
+        "pname": "한경임",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44668-02": {
+        "name": "팝송으로배우는영어세계",
+        "pname": "김희태",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44669-01": {
+        "name": "중국의혁신기업과기업가정신",
+        "pname": "윤성환",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "목",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44683-03": {
+        "name": "돌봄인문학",
+        "pname": "정예슬",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44683-04": {
+        "name": "돌봄인문학",
+        "pname": "조미경",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44775-01": {
+        "name": "대구경북의이해",
+        "pname": "김진찬",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "17:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44810-01": {
+        "name": "신국제질서와한반도평화",
+        "pname": "김정규",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:00",
+                "endTime": "12:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "20756-01": {
+        "name": "공연예술의이해",
+        "pname": "김중효",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "20756-02": {
+        "name": "공연예술의이해",
+        "pname": "유철우",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "20756-51": {
+        "name": "공연예술의이해",
+        "pname": "이희정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21272-01": {
+        "name": "생활과법률",
+        "pname": "이로리",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21272-02": {
+        "name": "생활과법률",
+        "pname": "김영수",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21272-03": {
+        "name": "생활과법률",
+        "pname": "김영수",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21272-51": {
+        "name": "생활과법률",
+        "pname": "김재두",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21280-01": {
+        "name": "생활일본어회화",
+        "pname": "장진영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21995-01": {
+        "name": "초급일본어(1)",
+        "pname": "장진영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21995-02": {
+        "name": "초급일본어(1)",
+        "pname": "장진영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21995-03": {
+        "name": "초급일본어(1)",
+        "pname": "장진영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21995-51": {
+        "name": "초급일본어(1)",
+        "pname": "이은희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            },
+            {
+                "day": "금",
+                "startTime": "19:40",
+                "endTime": "21:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21996-01": {
+        "name": "초급일본어(2)",
+        "pname": "장진영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21997-01": {
+        "name": "초급중국어(1)",
+        "pname": "공병석",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21997-02": {
+        "name": "초급중국어(1)",
+        "pname": "공병석",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21997-03": {
+        "name": "초급중국어(1)",
+        "pname": "공병석",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "목",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21997-51": {
+        "name": "초급중국어(1)",
+        "pname": "공병석",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "21998-01": {
+        "name": "초급중국어(2)",
+        "pname": "공병석",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22001-01": {
+        "name": "초급한문(1)",
+        "pname": "Li, Chunji",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22001-02": {
+        "name": "초급한문(1)",
+        "pname": "정하정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22001-03": {
+        "name": "초급한문(1)",
+        "pname": "김성중",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22377-01": {
+        "name": "환경과인간",
+        "pname": "이태관",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22377-02": {
+        "name": "환경과인간",
+        "pname": "이상훈",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22377-03": {
+        "name": "환경과인간",
+        "pname": "최성우",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22377-51": {
+        "name": "환경과인간",
+        "pname": "권혁준",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "금",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-01": {
+        "name": "컴퓨터활용",
+        "pname": "이경미",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-02": {
+        "name": "컴퓨터활용",
+        "pname": "이경미",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-03": {
+        "name": "컴퓨터활용",
+        "pname": "김효정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-04": {
+        "name": "컴퓨터활용",
+        "pname": "이명숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-05": {
+        "name": "컴퓨터활용",
+        "pname": "이명숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-06": {
+        "name": "컴퓨터활용",
+        "pname": "이경미",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-07": {
+        "name": "컴퓨터활용",
+        "pname": "김효정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-08": {
+        "name": "컴퓨터활용",
+        "pname": "이명숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22434-51": {
+        "name": "컴퓨터활용",
+        "pname": "김젬마",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22845-01": {
+        "name": "세계문화유산탐구",
+        "pname": "박성준",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "24699-01": {
+        "name": "기초토익",
+        "pname": "최진실",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "24699-02": {
+        "name": "기초토익",
+        "pname": "김희태",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "24699-03": {
+        "name": "기초토익",
+        "pname": "김우형",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "24699-04": {
+        "name": "기초토익",
+        "pname": "김령희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "24699-05": {
+        "name": "기초토익",
+        "pname": "한경임",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "24699-06": {
+        "name": "기초토익",
+        "pname": "신효정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "24699-51": {
+        "name": "기초토익",
+        "pname": "김태영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "25236-01": {
+        "name": "영작문",
+        "pname": "신효정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "25781-01": {
+        "name": "초급스페인어(1)",
+        "pname": "황지희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27263-01": {
+        "name": "THESIS WRITING ",
+        "pname": "홀죠지아나",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27274-01": {
+        "name": "초급이탈리아어",
+        "pname": "윤소영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27274-51": {
+        "name": "초급이탈리아어",
+        "pname": "윤소영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:50",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27743-01": {
+        "name": "초급러시아어",
+        "pname": "박선진",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27796-01": {
+        "name": "ACADEMIC WRITING I(KAC)",
+        "pname": "Tait, Andrew Philip",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27796-02": {
+        "name": "ACADEMIC WRITING I(KAC)",
+        "pname": "Tait, Andrew Philip",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27796-03": {
+        "name": "ACADEMIC WRITING I(KAC)",
+        "pname": "Stollery, Quentin Vyvyan Adams",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27798-01": {
+        "name": "COMMUNICATION SKILLS I(KAC)",
+        "pname": "Tait, Andrew Philip",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27798-02": {
+        "name": "COMMUNICATION SKILLS I(KAC)",
+        "pname": "홀죠지아나",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27798-03": {
+        "name": "COMMUNICATION SKILLS I(KAC)",
+        "pname": "홀죠지아나",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "29502-01": {
+        "name": "대학에서의학습전략",
+        "pname": "임태성",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "29997-01": {
+        "name": "LISTENING SKILLS",
+        "pname": "Butler, Timothy Michael",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "30626-01": {
+        "name": "INTEGRATED ENGLISH SKILLS(1)",
+        "pname": "Tait, Andrew Philip",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "30673-01": {
+        "name": "실전창업프로젝트1",
+        "pname": "박민석",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "13:20"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "30706-01": {
+        "name": "글로벌시대의이해와매너전략",
+        "pname": "조우제",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "30709-01": {
+        "name": "태권도와한국전통문화",
+        "pname": "송형석",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "30709-02": {
+        "name": "태권도와한국전통문화",
+        "pname": "최성곤",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "30709-51": {
+        "name": "태권도와한국전통문화",
+        "pname": "이주화",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "금",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "31028-01": {
+        "name": "LAW AND CIVILIZATION",
+        "pname": "한아름",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "31187-01": {
+        "name": "해외봉사와해외문화의이해",
+        "pname": "김영규",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "31187-51": {
+        "name": "해외봉사와해외문화의이해",
+        "pname": "박수정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:50",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "31733-01": {
+        "name": "예술치료와정신건강",
+        "pname": "이에스더",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "31965-01": {
+        "name": "스피치와토론",
+        "pname": "이유택",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32454-01": {
+        "name": "북한학",
+        "pname": "한병진",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32455-01": {
+        "name": "국가안보론",
+        "pname": "이승근",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32455-02": {
+        "name": "국가안보론",
+        "pname": "정재학",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "13:30",
+                "endTime": "16:20"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32872-01": {
+        "name": "라틴아메리카의역사와문화",
+        "pname": "박윤주",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32872-02": {
+        "name": "라틴아메리카의역사와문화",
+        "pname": "김영석",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32873-01": {
+        "name": "삶과죽음의철학",
+        "pname": "이재성",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32873-02": {
+        "name": "삶과죽음의철학",
+        "pname": "이재성",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32873-03": {
+        "name": "삶과죽음의철학",
+        "pname": "김형찬",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32873-51": {
+        "name": "삶과죽음의철학",
+        "pname": "김형찬",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "목",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32875-01": {
+        "name": "생명감수성인큐베이팅",
+        "pname": "김춘이",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32875-02": {
+        "name": "생명감수성인큐베이팅",
+        "pname": "최봉도",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32875-03": {
+        "name": "생명감수성인큐베이팅",
+        "pname": "김재현",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32875-04": {
+        "name": "생명감수성인큐베이팅",
+        "pname": "이인경",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32877-01": {
+        "name": "한국의역사와문화",
+        "pname": "임동민",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32879-01": {
+        "name": "국제사회의이해",
+        "pname": "김승민",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32879-02": {
+        "name": "국제사회의이해",
+        "pname": "정상희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32885-01": {
+        "name": "생활과화학",
+        "pname": "박영태",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32885-51": {
+        "name": "생활과화학",
+        "pname": "박영태",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:50",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32888-01": {
+        "name": "자연속의과학세상",
+        "pname": "정대원",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32896-01": {
+        "name": "비주얼미디어를통해본영미문학",
+        "pname": "정현숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32896-02": {
+        "name": "비주얼미디어를통해본영미문학",
+        "pname": "손나경",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32896-03": {
+        "name": "비주얼미디어를통해본영미문학",
+        "pname": "김태영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32896-04": {
+        "name": "비주얼미디어를통해본영미문학",
+        "pname": "이정복",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32901-01": {
+        "name": "우화와영화를통한생각과상상력연습",
+        "pname": "이경규",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "32905-51": {
+        "name": "재미있는진로선택-내인생의네비게이션",
+        "pname": "정재승",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "수",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "33865-01": {
+        "name": "현대사회와일그리고젠더",
+        "pname": "안숙영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "35838-01": {
+        "name": "섬김의리더십과기독교윤리",
+        "pname": "이종원",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:00",
+                "endTime": "14:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "35840-01": {
+        "name": "국제사회와세계시민",
+        "pname": "김명수",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "36172-01": {
+        "name": "기술창업실무(2)",
+        "pname": "이종하",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37068-01": {
+        "name": "기술사업화창업이해",
+        "pname": "김태영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37553-01": {
+        "name": "행복의인문학",
+        "pname": "이유택",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37596-01": {
+        "name": "생태문학의이해",
+        "pname": "김향숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37596-51": {
+        "name": "생태문학의이해",
+        "pname": "이정화",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "목",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37597-01": {
+        "name": "우리문화유전자읽기",
+        "pname": "김기주",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37597-02": {
+        "name": "우리문화유전자읽기",
+        "pname": "김기주",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37599-01": {
+        "name": "서사의이해",
+        "pname": "김영찬",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37608-01": {
+        "name": "논리와윤리",
+        "pname": "유원기",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37610-01": {
+        "name": "언어와문화생활",
+        "pname": "장요한",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37610-02": {
+        "name": "언어와문화생활",
+        "pname": "윤원희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37624-01": {
+        "name": "미디어와한국학",
+        "pname": "Lee, Janet Yoon-Sun",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38441-01": {
+        "name": "베이직잉글리시톡",
+        "pname": "이상혁",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38455-01": {
+        "name": "기후변화와미래사회",
+        "pname": "정응호",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38455-02": {
+        "name": "기후변화와미래사회",
+        "pname": "김해동",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38455-03": {
+        "name": "기후변화와미래사회",
+        "pname": "배헌균",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38456-01": {
+        "name": "디자인씽킹과창업",
+        "pname": "김창완",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38457-01": {
+        "name": "글로벌식품문화와과학",
+        "pname": "이삼빈",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38457-02": {
+        "name": "글로벌식품문화와과학",
+        "pname": "양선아",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38458-01": {
+        "name": "FUTURE TRENDS",
+        "pname": "Havertz, Ralf Arnold",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38461-01": {
+        "name": "도시환경과조경",
+        "pname": "정해준",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38462-01": {
+        "name": "책으로사람을연출하다:텍스트드라마를통한인성교육",
+        "pname": "김재현",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38462-02": {
+        "name": "책으로사람을연출하다:텍스트드라마를통한인성교육",
+        "pname": "허선호",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38462-51": {
+        "name": "책으로사람을연출하다:텍스트드라마를통한인성교육",
+        "pname": "도이명",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38464-01": {
+        "name": "디자인인문학",
+        "pname": "박주희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38465-01": {
+        "name": "색채와문화",
+        "pname": "김재희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38465-51": {
+        "name": "색채와문화",
+        "pname": "김재희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38467-01": {
+        "name": "언어로보는사회와문화",
+        "pname": "한경임",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38467-51": {
+        "name": "언어로보는사회와문화",
+        "pname": "김민경",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38469-01": {
+        "name": "미래를열어가는리더십",
+        "pname": "김형찬",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38469-02": {
+        "name": "미래를열어가는리더십",
+        "pname": "고기홍",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38471-01": {
+        "name": "나-우리-미래:aCUA",
+        "pname": "양지웅",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38474-01": {
+        "name": "21세기중국사회의이해",
+        "pname": "유정원",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38474-51": {
+        "name": "21세기중국사회의이해",
+        "pname": "유정원",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38475-01": {
+        "name": "생활속세금이야기",
+        "pname": "김정민",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38475-51": {
+        "name": "생활속세금이야기",
+        "pname": "김정민",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38493-01": {
+        "name": "인성의과학적이해",
+        "pname": "김승원",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38543-01": {
+        "name": "한국의다문화현상과이민",
+        "pname": "최종렬",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38623-01": {
+        "name": "과학소설(SF)로떠나는상상여행",
+        "pname": "손나경",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38625-01": {
+        "name": "문학과영화를통한인성함양",
+        "pname": "안영희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "39001-01": {
+        "name": "커뮤니티디자인",
+        "pname": "최이규",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "39004-01": {
+        "name": "4차산업혁명기술이해",
+        "pname": "이주화",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "39085-01": {
+        "name": "사례를통한동아시아진출기업이해",
+        "pname": "이형탁",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40012-01": {
+        "name": "건강한피부이야기",
+        "pname": "김배환",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40013-01": {
+        "name": "건강과사회",
+        "pname": "박진욱",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40014-01": {
+        "name": "대학생활과영어",
+        "pname": "김우형",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40014-02": {
+        "name": "대학생활과영어",
+        "pname": "김태영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40014-03": {
+        "name": "대학생활과영어",
+        "pname": "김태영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40014-51": {
+        "name": "대학생활과영어",
+        "pname": "김상훈",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:50",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40015-01": {
+        "name": "이미지와영상으로풀어보는전쟁과인간",
+        "pname": "배은숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40015-51": {
+        "name": "이미지와영상으로풀어보는전쟁과인간",
+        "pname": "김봉숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "금",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40016-01": {
+        "name": "사회혁신과시장생태계",
+        "pname": "최하눌",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40016-02": {
+        "name": "사회혁신과시장생태계",
+        "pname": "양근우",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40027-01": {
+        "name": "지구와재해의이해",
+        "pname": "정연인",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40028-01": {
+        "name": "재미있는대인관계심리학",
+        "pname": "조명실",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40028-51": {
+        "name": "재미있는대인관계심리학",
+        "pname": "김미선",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            },
+            {
+                "day": "금",
+                "startTime": "19:40",
+                "endTime": "21:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40030-01": {
+        "name": "생각의차이",
+        "pname": "추제협",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40032-02": {
+        "name": "동양고전의인문학적지혜",
+        "pname": "구슬아",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40033-01": {
+        "name": "영화로보는도시건축",
+        "pname": "문근종",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40034-01": {
+        "name": "세계도시건축의이해",
+        "pname": "이성근",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40039-01": {
+        "name": "국어현상과통계분석",
+        "pname": "엄홍준",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40042-01": {
+        "name": "비언어커뮤니케이션",
+        "pname": "박진우",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40042-02": {
+        "name": "비언어커뮤니케이션",
+        "pname": "박진우",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40042-51": {
+        "name": "비언어커뮤니케이션",
+        "pname": "박진우",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40043-01": {
+        "name": "디지털콘텐츠와스타트업",
+        "pname": "이명숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40044-01": {
+        "name": "대학생을위한현대미술읽기",
+        "pname": "김경미",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40047-01": {
+        "name": "힐링시대건강이야기",
+        "pname": "오세연",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40048-01": {
+        "name": "대중매체와식생활정보",
+        "pname": "정윤정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40049-01": {
+        "name": "디지털미디어와사회",
+        "pname": "김광협",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40051-01": {
+        "name": "빅데이터이해와감성적분석의활용",
+        "pname": "김효정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40052-01": {
+        "name": "세계속의한국학",
+        "pname": "Kobyakova, Uliana",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40052-51": {
+        "name": "세계속의한국학",
+        "pname": "Kobyakova, Uliana",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            },
+            {
+                "day": "목",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40053-01": {
+        "name": "소비와행복",
+        "pname": "김성숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40062-01": {
+        "name": "대학글쓰기",
+        "pname": "문성화",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40062-03": {
+        "name": "대학글쓰기",
+        "pname": "오새내",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40062-04": {
+        "name": "대학글쓰기",
+        "pname": "조미경",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40062-05": {
+        "name": "대학글쓰기",
+        "pname": "안영희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40062-06": {
+        "name": "대학글쓰기",
+        "pname": "최애순",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40062-08": {
+        "name": "대학글쓰기",
+        "pname": "오새내",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40062-51": {
+        "name": "대학글쓰기",
+        "pname": "오새내",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "목",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40070-01": {
+        "name": "영상으로보는한국사",
+        "pname": "김백철",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40071-01": {
+        "name": "한국고전문학과전통문화",
+        "pname": "김동욱",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40635-01": {
+        "name": "뉴스와창의력",
+        "pname": "강건해",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40645-01": {
+        "name": "사회적이슈를통한소통과토론",
+        "pname": "임영규",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40648-01": {
+        "name": "평생학습을위한창업과기업가정신",
+        "pname": "김규태",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40648-51": {
+        "name": "평생학습을위한창업과기업가정신",
+        "pname": "김규태",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:00",
+                "endTime": "18:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40649-01": {
+        "name": "세계와인과문화의이해",
+        "pname": "김지은",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40650-01": {
+        "name": "영화와만난커뮤니케이션",
+        "pname": "김춘이",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40650-02": {
+        "name": "영화와만난커뮤니케이션",
+        "pname": "최봉도",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40651-01": {
+        "name": "세계뮤지컬의이해와감상",
+        "pname": "강연종",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40651-02": {
+        "name": "세계뮤지컬의이해와감상",
+        "pname": "최두선",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40662-01": {
+        "name": "글로벌시대의공공외교",
+        "pname": "이승근",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "13:30",
+                "endTime": "16:20"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40674-01": {
+        "name": "국제개발협력의이해",
+        "pname": "정상희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40677-01": {
+        "name": "채식주의",
+        "pname": "신상헌",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "41529-01": {
+        "name": "문화예술로이해하는경영과회계",
+        "pname": "김혜진",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42207-01": {
+        "name": "인공지능과법정책",
+        "pname": "김희정",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42210-01": {
+        "name": "태권도와공연예술",
+        "pname": "김종수",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42273-01": {
+        "name": "감정이해와철학적치유",
+        "pname": "권의섭",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42273-02": {
+        "name": "감정이해와철학적치유",
+        "pname": "권의섭",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42275-01": {
+        "name": "인공지능디자인",
+        "pname": "장대진",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42276-01": {
+        "name": "첨단산업미래기술의이해",
+        "pname": "박현호",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42277-01": {
+        "name": "영상번역으로영어마스터",
+        "pname": "최진실",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42460-01": {
+        "name": "미래자동차혁명(공유)",
+        "pname": "미래혁신인재원행정팀",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "11:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42765-01": {
+        "name": "일반생물및화학(간호학)",
+        "pname": "김상희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42765-02": {
+        "name": "일반생물및화학(간호학)",
+        "pname": "성호현",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "금",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42825-01": {
+        "name": "애니메이션과자기발견",
+        "pname": "허선호",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42826-01": {
+        "name": "자기긍정을위한글쓰기",
+        "pname": "노혜숙",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "금",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42827-01": {
+        "name": "인간과세상을연결하는실감미디어",
+        "pname": "이중호",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42828-01": {
+        "name": "건강복지와헬스케어",
+        "pname": "박천만",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42828-51": {
+        "name": "건강복지와헬스케어",
+        "pname": "김종호",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "수",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42829-01": {
+        "name": "융합사회와미래예측",
+        "pname": "권오성",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "수",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43471-01": {
+        "name": "영화로보는나노기술과나노융합산업",
+        "pname": "배재영",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43472-01": {
+        "name": "ESG경영의이해",
+        "pname": "신진교",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43474-01": {
+        "name": "슬기로운진로선택창업",
+        "pname": "정효진",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "목",
+                "startTime": "09:00",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43474-02": {
+        "name": "슬기로운진로선택창업",
+        "pname": "장미화",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "09:00",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43474-51": {
+        "name": "슬기로운진로선택창업",
+        "pname": "방준원",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "18:00",
+                "endTime": "20:25"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43475-01": {
+        "name": "미래산업창업",
+        "pname": "이상원",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "목",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43475-51": {
+        "name": "미래산업창업",
+        "pname": "박창일",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "금",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43477-01": {
+        "name": "로컬창업앳대구",
+        "pname": "김병국",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "14:30",
+                "endTime": "17:20"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43478-01": {
+        "name": "창업고수비법노트",
+        "pname": "박창일",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:00",
+                "endTime": "12:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "19663-01": {
+        "name": "인간관계및의사소통",
+        "pname": "전원희",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "10:00",
+                "endTime": "11:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "19663-02": {
+        "name": "인간관계및의사소통",
+        "pname": "유다래",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "15:00",
+                "endTime": "16:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "19663-03": {
+        "name": "인간관계및의사소통",
+        "pname": "김상희",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "금",
+                "startTime": "10:00",
+                "endTime": "11:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "19663-04": {
+        "name": "인간관계및의사소통",
+        "pname": "서은혜",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "28287-01": {
+        "name": "보건영양",
+        "pname": "박정민",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "14:00",
+                "endTime": "15:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "33083-01": {
+        "name": "인간심리의이해",
+        "pname": "조미경",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "13:00",
+                "endTime": "14:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "33083-02": {
+        "name": "인간심리의이해",
+        "pname": "김주연",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "목",
+                "startTime": "15:00",
+                "endTime": "16:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "33083-03": {
+        "name": "인간심리의이해",
+        "pname": "조미경",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "15:00",
+                "endTime": "16:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44657-01": {
+        "name": "HISTORY OF ECONOMIC THOUGHT(영어강의)",
+        "pname": "Erdem, Cagri",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44659-01": {
+        "name": "디지털시대의경영트렌드",
+        "pname": "강영희",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "44663-01": {
+        "name": "31가지창의적인아이디어발상법",
+        "pname": "류진한",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "45237-01": {
+        "name": "글로벌시대다른나라다른삶",
+        "pname": "김정규",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "22156-01": {
+        "name": "평생교육실습",
+        "pname": "유정록",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "18:00",
+                "endTime": "20:25"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "25015-01": {
+        "name": "생활속의경제",
+        "pname": "김진찬",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "25015-02": {
+        "name": "생활속의경제",
+        "pname": "이우형",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "25015-03": {
+        "name": "생활속의경제",
+        "pname": "박병윤",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "25800-01": {
+        "name": "BUSINESS APPLICATION",
+        "pname": "홀죠지아나",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "25801-01": {
+        "name": "CROSS CULTURAL COMMUNICATION",
+        "pname": "Tait, Andrew Philip",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27743-51": {
+        "name": "초급러시아어",
+        "pname": "박선진",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "18:00",
+                "endTime": "19:35"
+            },
+            {
+                "day": "목",
+                "startTime": "18:50",
+                "endTime": "19:35"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "27752-01": {
+        "name": "WORLD HISTORY",
+        "pname": "김진하",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "목",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "29770-01": {
+        "name": "CALCULUS",
+        "pname": "Ziatdinov, Rushan",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "30627-01": {
+        "name": "INTEGRATED ENGLISH SKILLS(2)",
+        "pname": "Tait, Andrew Philip",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "금",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "30706-51": {
+        "name": "글로벌시대의이해와매너전략",
+        "pname": "이상협",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "수",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "31964-01": {
+        "name": "자기표현과연기예술",
+        "pname": "안재범",
+        "credits": 2,
+        "weight": 2,
+        "times": [
+            {
+                "day": "수",
+                "startTime": "14:00",
+                "endTime": "15:50"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "37610-51": {
+        "name": "언어와문화생활",
+        "pname": "장요한",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "19:40",
+                "endTime": "20:25"
+            },
+            {
+                "day": "목",
+                "startTime": "20:30",
+                "endTime": "22:05"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38475-02": {
+        "name": "생활속세금이야기",
+        "pname": "김영화",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "38494-01": {
+        "name": "TRAVEL AND HAPPINESS(영어강의)",
+        "pname": "전수현",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40032-01": {
+        "name": "동양고전의인문학적지혜",
+        "pname": "Li, Chunji",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            {
+                "day": "목",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40040-01": {
+        "name": "재미와게임",
+        "pname": "임충재",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40041-01": {
+        "name": "논리적사고의기초",
+        "pname": "유원기",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            {
+                "day": "수",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "40062-07": {
+        "name": "대학글쓰기",
+        "pname": "오새내",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            {
+                "day": "목",
+                "startTime": "16:30",
+                "endTime": "17:45"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42757-01": {
+        "name": "간호정보입문",
+        "pname": "성지현",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "42757-02": {
+        "name": "간호정보입문",
+        "pname": "성호현",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "화",
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            {
+                "day": "금",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    },
+    "43476-01": {
+        "name": "크라우드펀딩과창업",
+        "pname": "박정훈",
+        "credits": 3,
+        "weight": 2,
+        "times": [
+            {
+                "day": "월",
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            {
+                "day": "목",
+                "startTime": "09:00",
+                "endTime": "10:15"
+            }
+        ],
+        "department": "교양학부"
+    }
+}

@@ -1,39 +1,44 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-import TimetableGrid from './TimetableGrid';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import TimetableGrid from './TimetableGrid'; // 이건 시간표 그리드를 렌더링하는 컴포넌트
 import './timetable.css';
 
 const TimetableDataSet = () => {
-    const navigate = useNavigate();
+    const [timetableData, setTimetableData] = useState([]);  // 시간표 데이터 상태
+    const [loading, setLoading] = useState(true);  // 로딩 상태 관리
 
-    // 더미 데이터
-    const timetableData = [
-        [
-            { day: "월", startTime: "09:00", endTime: "10:30", title: '컴퓨터네트워크', instructor: '주홍택' },
-            { day: "수", startTime: "11:00", endTime: "16:00", title: '데이터베이스프로그래밍', instructor: '홍동권' },
-            { day: "화", startTime: "11:00", endTime: "16:00", title: '데이터베이스', instructor: '홍동권' },
-        ],
-        [
-            { day: "금", startTime: "15:00", endTime: "17:00", title: '프로그래밍기초', instructor: '사공상욱' },
-            { day: "화", startTime: "12:30", endTime: "16:00", title: '컴퓨터공학캡스톤디자인(1)', instructor: '홍동권' },
-        ],
-        [
-            { day: "월", startTime: "13:00", endTime: "14:15", title: '데이터베이스', instructor: '홍동권' },
-        ],
-    ];
-
-    const handleSelect = (index) => {
-        navigate('/timetablecheck', { state: { selectedTimetable: timetableData[index] } });
+    // 시간표 데이터를 서버로부터 가져오는 함수
+    const fetchTimetableData = async () => {
+        try {
+            const response = await axios.get('http://localhost:8000/api/timetables');  // GET 요청
+            setTimetableData(response.data);  // 받은 시간표 데이터를 상태에 저장
+            setLoading(false);  // 로딩 완료
+        } catch (error) {
+            console.error('시간표 데이터를 가져오는 데 실패했습니다.', error);
+            setLoading(false);
+        }
     };
+
+    useEffect(() => {
+        fetchTimetableData();  // 컴포넌트가 마운트될 때 데이터 가져오기
+    }, []);  // 컴포넌트가 한 번만 실행될 수 있도록 빈 배열
+
+    if (loading) {
+        return <p>시간표를 로딩 중입니다...</p>;  // 로딩 중일 때 표시할 내용
+    }
 
     return (
         <div className="tables-wrapper">
-            {timetableData.map((data, index) => (
-                <div className="timetable-container" key={index}>
-                    <button onClick={() => handleSelect(index)}>시간표 {index + 1} 선택하기</button>
-                    <TimetableGrid lectureData={data} />
-                </div>
-            ))}
+            {timetableData.length > 0 ? (
+                timetableData.map((data, index) => (
+                    <div className="timetable-container" key={index}>
+                        <button onClick={() => handleSelect(index)}>시간표 {index + 1} 선택하기</button>
+                        <TimetableGrid lectureData={data} />  {/* 각 시간표를 그리드로 표시 */}
+                    </div>
+                ))
+            ) : (
+                <p>저장된 시간표가 없습니다.</p>  // 데이터가 없을 때 표시할 내용
+            )}
         </div>
     );
 };
