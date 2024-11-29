@@ -10,8 +10,6 @@ const PORT = 8000;
 app.use(bodyParser.json());
 app.use(cors());
 
-
-
 // 추천 라우터 연결
 app.use('/api', recommendRoutes);
 
