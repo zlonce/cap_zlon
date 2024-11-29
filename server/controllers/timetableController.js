@@ -1,5 +1,6 @@
 //박기성이 업데이트함
 
+
 const fs = require('fs');
 const path = require('path');
 
@@ -120,3 +121,4 @@ function formatTimetables(timetables) {
 }
 
 module.exports = { generateTimetables, formatTimetables };
+ 
