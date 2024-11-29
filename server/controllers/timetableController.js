@@ -1,5 +1,4 @@
-// 김민재 김민재
-// 박기성 확인 완료
+//박기성이 업데이트함
 
 const fs = require('fs');
 const path = require('path');
