@@ -53,79 +53,89 @@ function Main() {
   };
 
   return (
-    <Layout>
-      <div className="app-header">
-        <div className="app-title-container">
-          <span className="app-title">시간표 자동 생성</span>
+    <div className="min-h-screen">
+      <header className="header">
+        <div className="header-container">
+          <div className="logo-section">
+            <img src="/logo2.png" alt="계명대학교" className="logo" />
+            <div className="logo-text">
+              <div className="university-name-ko">계명대학교</div>
+              <div className="university-name-en">KEIMYUNG UNIVERSITY</div>
+            </div>
+          </div>
+          <nav className="nav-buttons">
+            <button className="nav-button">로그인</button>
+            <button className="nav-button">프로필 수정</button>
+            <button className="nav-button">설명</button>
+            <button className="nav-button">문의하기</button>
+          </nav>
         </div>
-      </div>
-      <div className="partition"></div>
+      </header>
+
       <main className="main-content">
-        <div className="content-section">
-          <Dropdown
-            label="학년"
-            options={["1학년", "2학년", "3학년", "4학년"]}
-            selectedOption={year}
-            onChange={handleYearChange}
-          />
-          <Dropdown
-            label="학기"
-            options={["1학기", "2학기"]}
-            selectedOption={semester}
-            onChange={handleSemesterChange}
-          />
-          <Dropdown
-            label="학과"
-            options={["컴퓨터공학과", "도시계획학과", "게임소프트웨어학과"]}
-            selectedOption={department}
-            onChange={handleDepartmentChange}
-          />
+        <div className="title-section">
+          <h1 className="main-title">시간표 자동 생성</h1>
+          <p className="subtitle">원하는 조건을 선택하시면 최적의 시간표를 추천해드립니다.</p>
         </div>
-        <div className="credit-section">
-          <Dropdown
-            label="전공학점"
-            options={["0학점", "3학점", "6학점", "9학점"]}
-            selectedOption={majorrequired}
-            onChange={handleMajorrequiredChange}
-          />
-          <Dropdown
-            label="교양학점"
-            options={["0학점", "3학점", "6학점", "9학점"]}
-            selectedOption={generalCredit}
-            onChange={handleGeneralCreditChange}
-          />
-          <button className="preference-button" onClick={handleComplete}>키워드 선택</button>
+
+        <div className="form-container">
+          <div className="dropdown-grid">
+            <div className="form-group">
+              <label className="form-label">학년</label>
+              <select value={year} onChange={handleYearChange}>
+                <option>1학년</option>
+                <option>2학년</option>
+                <option>3학년</option>
+                <option>4학년</option>
+              </select>
+            </div>
+
+            <div className="form-group">
+              <label className="form-label">학기</label>
+              <select value={semester} onChange={handleSemesterChange}>
+                <option>1학기</option>
+                <option>2학기</option>
+              </select>
+            </div>
+
+            <div className="form-group">
+              <label className="form-label">학과</label>
+              <select value={department} onChange={handleDepartmentChange}>
+                <option>컴퓨터공학과</option>
+                <option>도시계획학과</option>
+                <option>게임소프트웨어학과</option>
+              </select>
+            </div>
+          </div>
+
+          <div className="dropdown-grid-2">
+            <div className="form-group">
+              <label className="form-label">전공학점</label>
+              <select value={majorrequired} onChange={handleMajorrequiredChange}>
+                {[0, 3, 6, 9, 12, 15, 18].map(credit => (
+                  <option key={credit}>{credit}학점</option>
+                ))}
+              </select>
+            </div>
+
+            <div className="form-group">
+              <label className="form-label">교양학점</label>
+              <select value={generalCredit} onChange={handleGeneralCreditChange}>
+                {[0, 3, 6, 9, 12, 15, 18].map(credit => (
+                  <option key={credit}>{credit}학점</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          <div className="submit-container">
+            <button className="submit-button" onClick={handleComplete}>
+              시간표 추천
+            </button>
+          </div>
         </div>
-        <button className="complete-button" onClick={handleComplete}>시간표 추천</button>
       </main>
-      <nav className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
-        <Link to='/'>
-          <button className="nav-button">
-            <FaUnlock className="nav-icon" />
-            로그아웃
-          </button>
-        </Link>
-        <Link to='/Editprofile'>
-          <button className="nav-button">
-            <MdDriveFileRenameOutline className="nav-icon" />
-            프로필 수정
-          </button>
-        </Link>
-        <button className="nav-button">
-          <IoNewspaperOutline className="nav-icon" />
-          설명
-        </button>
-        <Link to='/Faq'>
-          <button className="nav-button">
-            <MdOutlineQuestionAnswer className="nav-icon" />
-            문의하기
-          </button>
-        </Link>
-      </nav>
-      <button onClick={toggleSidebar} className="toggle-sidebar-button">
-      <img src="/side.png" alt="메뉴" className="side" />
-      </button>
-    </Layout>
+    </div>
   );
 }
 
