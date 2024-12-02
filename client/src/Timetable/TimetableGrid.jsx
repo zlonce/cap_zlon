@@ -1,68 +1,139 @@
 import React from 'react';
-import './timetable.css';
 
-const TimetableGrid = ({ lectureData }) => {
-    const hours = Array.from({ length: 12 }, (_, i) => 9 + i); // 9시부터 20시까지
-    const days = ['월', '화', '수', '목', '금']; // 요일 배열
+const TimetableGrid = ({ scheduleData = [] }) => {
+    const hours = Array.from({ length: 11 }, (_, i) => 9 + i);
+    const days = ['월', '화', '수', '목', '금'];
 
-    // 시간 문자열을 분 단위로 변환하는 함수
-    const timeToMinutes = (time) => {
-        const [hour, minute] = time.split(':').map(Number);
-        return hour * 60 + minute;
+    // 그리드 상수
+    const CELL_WIDTH = 65;
+    const CELL_HEIGHT = 40;
+    const TIME_COLUMN_WIDTH = 35;
+    const HEADER_HEIGHT = 25;
+    const MINUTES_PER_CELL = 60;
+
+    // 시간을 픽셀로 변환하는 함수 (분 단위 정확도)
+    const timeToPixels = (timeString) => {
+        const [hours, minutes] = timeString.split(':').map(Number);
+        const totalMinutes = (hours - 9) * 60 + minutes;
+        return (totalMinutes * CELL_HEIGHT) / MINUTES_PER_CELL;
     };
 
-    const predefinedColors = ['#ff9292', '#65b5b5', '#d28476', '#6f9ec5', '#90c690', '#ffdb82', '#87d4cf', '#ffcccc','#ffeecc', '#f7dad9', '#74a4c5'];
-    // 랜덤 색상 생성 함수 (정해진 색상 중에서 선택)
-    const getRandomColor = () => {
-        const randomIndex = Math.floor(Math.random() * predefinedColors.length);
-        return predefinedColors[randomIndex];
+    // 요일 인덱스를 픽셀로 변환하는 함수
+    const dayToPixels = (day) => {
+        const dayIndex = days.indexOf(day);
+        return TIME_COLUMN_WIDTH + (dayIndex * CELL_WIDTH);
     };
 
     return (
-        <div className="timetable">
-            {/* 시간표 헤더 */}
-            <div className="timetable-header">
-                <div className="timetable-time"></div>
-                {days.map((day, index) => (
-                    <div key={index} className="timetable-day">{day}</div>
-                ))}
-            </div>
+        <div className="timetable" style={{ 
+            position: 'relative',
+            display: 'grid',
+            gridTemplateColumns: `${TIME_COLUMN_WIDTH}px repeat(5, ${CELL_WIDTH}px)`,
+            gridTemplateRows: `${HEADER_HEIGHT}px repeat(${hours.length}, ${CELL_HEIGHT}px)`,
+            gap: '0px',
+            border: '1px solid #e0e0e0'
+        }}>
+            {/* 요일 헤더 */}
+            <div className="timetable-time"></div>
+            {days.map((day, index) => (
+                <div key={index} className="timetable-day" style={{
+                    borderBottom: '1px solid #e0e0e0',
+                    borderRight: '1px solid #e0e0e0',
+                    textAlign: 'center',
+                    padding: '4px'
+                }}>
+                    {day}
+                </div>
+            ))}
 
-            {/* 시간표 그리드 */}
+            {/* 시간 그리드 */}
             {hours.map((hour) => (
                 <React.Fragment key={hour}>
-                    <div className="timetable-time">{`${hour}:00`}</div>
+                    <div className="timetable-time" style={{
+                        borderRight: '1px solid #e0e0e0',
+                        textAlign: 'right',
+                        fontSize: '9px',
+                        color: '#666',
+                        fontWeight: '400',
+                        height: '40px',
+                        lineHeight: '40px',
+                        boxSizing: 'border-box',
+                        paddingRight: '8px',
+                        position: 'relative',
+                        top: '-10px'
+                    }}>
+                        {`${hour}:00`}
+                    </div>
                     {days.map((_, dayIndex) => (
-                        <div key={dayIndex} className="timetable-cell"></div>
+                        <div key={dayIndex} className="timetable-cell" style={{
+                            borderRight: '1px solid #e0e0e0',
+                            borderBottom: '1px solid #e0e0e0',
+                            position: 'relative'
+                        }}></div>
                     ))}
                 </React.Fragment>
             ))}
 
-            {/* 강의 블록 렌더링 */}
-            {lectureData.map((lecture, index) => {
-                const startMinutes = timeToMinutes(lecture.startTime);
-                const endMinutes = timeToMinutes(lecture.endTime);
-                const durationMinutes = endMinutes - startMinutes;
+            {/* 수업 블록 */}
+            {scheduleData.map((classInfo, index) => {
+                const top = timeToPixels(classInfo.startTime);
+                const height = timeToPixels(classInfo.endTime) - top;
+                const left = dayToPixels(classInfo.day);
 
-                const top = ((startMinutes - 540) / 60) * 100 + 50; // 540 = 9:00 AM 기준
-                const left = days.indexOf(lecture.day) * 150 + 100; // 요일 배열의 인덱스를 활용
-                const height = (durationMinutes / 60) * 100; // 분 단위를 px로 변환
+                const formatText = (text) => {
+                    return text.match(/.{1,5}/g)?.join('\n') || text;
+                };
 
                 return (
-                    <div
+                    <div 
                         key={index}
-                        className="lecture-block"
                         style={{
                             position: 'absolute',
-                            backgroundColor: getRandomColor(), // 랜덤 색상 적용
-                            top: `${top}px`,
-                            left: `${left}px`,
-                            height: `${height}px`,
-                            width: '145px', // 고정된 블록 너비
+                            top: `${top + HEADER_HEIGHT}px`,
+                            left: `${left + 1}px`,
+                            height: `${height - 1}px`,
+                            width: `${CELL_WIDTH - 3}px`,
+                            background: 'linear-gradient(135deg, #4A6FA5 0%, #6B8CC7 100%)',
+                            color: 'white',
+                            padding: '4px 4px',
+                            fontSize: '9px',
+                            borderRadius: '3px',
+                            zIndex: 1,
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            opacity: 0.95,
+                            boxSizing: 'border-box',
+                            boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                            overflow: 'hidden',
+                            border: '1px solid rgba(255,255,255,0.1)'
                         }}
                     >
-                        <span>{lecture.title}</span>
-                        <span>{lecture.instructor}</span>
+                        <div style={{
+                            fontWeight: '500',
+                            fontSize: '9px',
+                            lineHeight: '1.2',
+                            whiteSpace: 'pre-line',
+                            overflow: 'hidden',
+                            textOverflow: 'ellipsis',
+                            display: '-webkit-box',
+                            WebkitLineClamp: 2,
+                            WebkitBoxOrient: 'vertical',
+                            marginBottom: '1px',
+                            maxHeight: `${height - 20}px`
+                        }}>
+                            {formatText(classInfo.title)}
+                        </div>
+                        <div style={{
+                            fontSize: '8px',
+                            lineHeight: '1.1',
+                            whiteSpace: 'nowrap',
+                            overflow: 'hidden',
+                            textOverflow: 'ellipsis',
+                            opacity: 0.9
+                        }}>
+                            {classInfo.instructor}
+                        </div>
                     </div>
                 );
             })}

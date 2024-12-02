@@ -1,8 +1,10 @@
 const axios = require('axios');
 
 // FastAPI 서버 URL
-const majorAPIUrl = 'https://5769-34-75-243-67.ngrok-free.app/recommend'; //전공
-const generalAPIUrl = 'https://30c3-35-185-123-5.ngrok-free.app/recommend2'; //교양
+const majorAPIUrl = 'https://55fb-34-48-196-60.ngrok-free.app/recommend'; //전공
+const generalAPIUrl = 'https://2ec6-35-232-8-119.ngrok-free.app/recommend2'; //교양
+
+
 
 // 전공 추천 요청 함수
 const recommendMajor = async (year, semester, major) => {

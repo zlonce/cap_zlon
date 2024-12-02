@@ -50,6 +50,8 @@ router.post('/recommend', async (req, res) => {
             });
         });
 
+        console.log(formattedTimetables);
+
         savedTimetables = formattedTimetables; // 시간표를 메모리에 저장
 
         // // 생성된 시간표 출력
