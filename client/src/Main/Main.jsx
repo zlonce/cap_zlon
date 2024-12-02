@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import './Main.css'; // 스타일 파일 임포트
 import { Link } from "react-router-dom";
-import { FaUnlock } from 'react-icons/fa';
-import { MdDriveFileRenameOutline, MdOutlineQuestionAnswer } from "react-icons/md";
-import { IoNewspaperOutline } from "react-icons/io5";
-import Layout from '../Layout/Layout';
-import Dropdown from '../Dropdown/Dropdown';
 import { useNavigate } from "react-router-dom";
 import axios from 'axios';
 
