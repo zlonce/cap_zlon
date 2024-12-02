@@ -99,10 +99,12 @@ function generateTimetables(majorCredits, electiveCredits, majorCodes, electiveC
 
     // 무조건 3개 옵션 출력
     const finalTimetables = [];
-    for (let i = 0; i < 3; i++) {
-        const index = i % uniqueTimetables.length;
-        finalTimetables.push(uniqueTimetables[index]);
-    }
+    const total = uniqueTimetables.length;
+    
+    if (total > 0) finalTimetables.push(uniqueTimetables[0]); // 첫 번째 시간표
+    if (total > 1) finalTimetables.push(uniqueTimetables[Math.floor(total / 2)]); // 중간 시간표
+    if (total > 2) finalTimetables.push(uniqueTimetables[total - 1]); // 마지막 시간표
+    
 
     return finalTimetables;
 }
