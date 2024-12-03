@@ -6,11 +6,10 @@ import Layout from '../Layout/Layout';
 const Signup = () => {
     return (
         <Layout>
-        <form className="signup-signup-form">
             <div className="signup-header">
-                <img src="/Signup.jpeg" alt="personimg" className="signup-personimg" />
                 <h3>회원가입</h3>
             </div>
+            <div className="form-container">
                 <div className="signup-form-group">
                     <div>
                     <label htmlFor="username">아이디</label>
@@ -39,7 +38,7 @@ const Signup = () => {
                     <button type="submit" className="signup-submit-button">확인</button>
                     </Link>
                 </div>
-            </form>
+            </div>
         </Layout>
     );
 };

@@ -1,22 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
 import "./login.css";
+import Layout from "../Layout/Layout";
 
 export default function Login() {
   return (
-    <div className="min-h-screen">
-      <header className="header">
-        <div className="header-container">
-          <div className="logo-section">
-            <img src="/logo2.png" alt="계명대학교" className="logo" />
-            <div className="logo-text">
-              <div className="university-name-ko">계명대학교</div>
-              <div className="university-name-en">KEIMYUNG UNIVERSITY</div>
-            </div>
-          </div>
-        </div>
-      </header>
-
+    <Layout>
       <main className="main-content">
         <div className="title-section">
           <h1 className="main-title">계명대학교 시간표 도우미</h1>
@@ -37,6 +26,6 @@ export default function Login() {
           </div>
         </div>
       </main>
-    </div>
+    </Layout>
   );
 }
