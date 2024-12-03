@@ -3,13 +3,19 @@ import "./Layout.css";
 
 const Layout = ({ children }) => {
   return (
-    <div className="layout-background">
-      <div className="layout-content">
-        <div className="logo-container">
-        <img src="/logo.png" alt="계명대학교 로고" className="logo" />
+    <div className="min-h-screen">
+      <header className="header">
+        <div className="header-container">
+          <div className="logo-section">
+            <img src="/logo2.png" alt="대학 로고" className="logo" />
+            <div className="logo-text">
+              <span className="university-name-ko">계명대학교</span>
+              <span className="university-name-en">KEIMYUNG UNIVERSITY</span>
+            </div>
+          </div>
         </div>
-        {children}
-      </div>
+      </header>
+      <main className="main-content">{children}</main>
     </div>
   );
 };

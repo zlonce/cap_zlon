@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './timetable.css';
+import Layout from '../Layout/Layout';
 import { useNavigate } from 'react-router-dom';
 
 const TimetableGrid = ({ scheduleData = [] }) => {
@@ -173,18 +174,7 @@ const TimetableDataSet = () => {
     };
 
     return (
-        <div className="min-h-screen">
-            <header className="header">
-                <div className="header-container">
-                    <div className="logo-section">
-                        <img src="/logo2.png" alt="계명대학교 로고" className="logo" />
-                        <div className="logo-text">
-                            <div className="university-name-ko">계명대학교</div>
-                            <div className="university-name-en">KEIMYUNG UNIVERSITY</div>
-                        </div>
-                    </div>
-                </div>
-            </header>
+        <Layout>
             <main className="main-content">
                 <div className="tables-wrapper">
                     {timetables.map((timetable, index) => (
@@ -201,7 +191,7 @@ const TimetableDataSet = () => {
                     ))}
                 </div>
             </main>
-        </div>
+        </Layout>
     );
 };
 

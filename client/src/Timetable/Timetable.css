@@ -1,79 +1,8 @@
-/* timetable.css */
-
 /* 전체 페이지 스타일 리셋 */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* 전체 페이지 레이아웃 */
-.min-h-screen {
-    min-height: 100vh;
-    height: 100vh;
-    background-color: #f9fafb;
-    width: 100vw;
-    overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-/* 헤더 스타일 */
-.header {
-    background-color: white;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    height: 100px;
-    flex-shrink: 0;
-}
-
-.header-container {
-    max-width: 1200px;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 1rem;
-}
-
-.logo-section {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    padding-bottom: 0.5rem;
-}
-
-.logo {
-    height: 45px;
-    width: auto;
-}
-
-.logo-text {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-    text-align: left;
-    justify-content: center;
-}
-
-.university-name-ko {
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: #004098;
-    line-height: 1.2;
-}
-
-.university-name-en {
-    font-size: 0.85rem;
-    color: #4B5563;
-    line-height: 1.2;
-}
-
-.nav-buttons {
-    display: flex;
-    gap: 0.25rem;
-    height: 100%;
 }
 
 /* 메인 컨텐츠 영역 */
@@ -84,8 +13,7 @@
     align-items: center;
     width: 100%;
     height: calc(100vh - 100px);
-    padding-left: 0.5rem;
-    padding-top: 1.5rem;
+    padding: 1.5rem 0.5rem 0;
 }
 
 /* 시간표 컨테이너들을 감싸는 영역 */
@@ -113,12 +41,7 @@
     .tables-wrapper {
         grid-template-columns: minmax(400px, 1fr);
     }
-    
-    .timetable-nav {
-        padding: 0 1rem;
-    }
-    
-    .timetable-content {
+    .timetable-nav, .timetable-content {
         padding: 0 1rem;
     }
 }
@@ -128,7 +51,7 @@
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    padding: 1.5rem;
     width: 100%;
     max-width: 420px;
     margin-right: 1rem;
@@ -149,17 +72,16 @@
 }
 
 /* 시간표 헤더 */
-.timetable-header {
-    display: contents;
-}
-
-.timetable-day {
+.timetable-day, .timetable-time {
     padding: 4px 0;
     font-size: 11px;
     color: #445eb4;
     background-color: white;
-    border-bottom: 1px solid #ddd;
     text-align: center;
+}
+
+.timetable-day {
+    border-bottom: 1px solid #ddd;
 }
 
 .timetable-time {
@@ -167,7 +89,6 @@
     padding-right: 4px;
     font-size: 10px;
     color: #666666;
-    background-color: white;
     border-right: 1px solid #ddd;
 }
 
@@ -205,34 +126,37 @@
 }
 
 /* 시간표 선택 버튼 */
-.timetable-container button {
+.timetable-container button,
+.timetable-check-pdf-button {
     background-color: rgba(68, 94, 180, 0.8);
     color: white;
     font-size: 15px;
-    padding: 10px 20px; 
-    border: none; 
+    padding: 10px 20px;
+    border: none;
     border-radius: 15px;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s; 
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-.timetable-container button:hover {
+.timetable-container button:hover,
+.timetable-check-pdf-button:hover {
     background-color: rgba(68, 94, 180, 1);
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
-.timetable-container button:active {
-    background-color: rgba(68, 94, 180, 0.6); 
-    transform: scale(0.98); 
+.timetable-container button:active,
+.timetable-check-pdf-button:active {
+    background-color: rgba(68, 94, 180, 0.6);
+    transform: scale(0.98);
 }
 
 /* 선택된 시간표 컨테이너 */
 .timetable-check-container {
     display: flex;
-    justify-content: center; /* 수평 가운데 정렬 */
-    align-items: center; /* 수직 가운데 정렬 */
-    height: 100vh; /* 전체 높이 */
-    position: relative; /* X 버튼 배치용 */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
     margin: 0;
     padding: 0 20px;
 }
@@ -241,12 +165,11 @@
 .timetable-check-content {
     width: 100%;
     max-width: 850px;
-    position: relative;
     background: white;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    text-align: center; /* 텍스트 중앙 정렬 */
+    text-align: center;
 }
 
 /* 선택된 시간표 제목 */
@@ -257,58 +180,11 @@
     color: #333;
 }
 
-/* X 버튼 스타일 */
-.timetable-check-close-button {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background-color: #ff5f5f;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    width: 175px;
-    height: 30px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.timetable-check-close-button:hover {
-    background-color: #ff4c4c;
-    transform: scale(1.1);
-}
-
-.timetable-check-close-button:active {
-    background-color: #ff2c2c;
-    transform: scale(0.95);
-}
-
 /* PDF로 저장하기 버튼 스타일 */
 .timetable-check-pdf-button {
-    background-color: rgba(68, 94, 180, 0.8);
     position: absolute;
     top: 10px;
     right: 15px;
-    color: white;
-    font-size: 15px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-.timetable-check-pdf-button:hover {
-    background-color: rgba(68, 94, 180, 1);
-    transform: scale(1.05);
-}
-
-.timetable-check-pdf-button:active {
-    background-color: rgba(68, 94, 180, 0.6);
-    transform: scale(0.98);
 }
 
 /* 시간표 제목 */
@@ -316,13 +192,12 @@
     font-size: 13px;
     margin-bottom: 6px;
     color: #445eb4;
-    text-align: center;
 }
 
 /* 버튼 스타일 */
 .select-button {
     width: 120px;
-    padding: 0.75rem;
+    padding: 2rem 0.75rem;
     background-color: #004098;
     color: white;
     border: none;
@@ -332,7 +207,6 @@
     cursor: pointer;
     transition: all 0.2s;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    padding: 2rem;
     margin-top: 1rem;
     text-align: center;
 }
@@ -345,38 +219,7 @@
     transform: translateY(1px);
 }
 
-.timetable-block {
-    position: absolute;
-    background-color: #004098;
-    color: white;
-    border-radius: 4px;
-    padding: 4px;
-    font-size: 12px;
-    overflow: hidden;
-    opacity: 0.9;
-    z-index: 1;
-}
-
-.class-info {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.class-name {
-    font-weight: 500;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.class-room {
-    font-size: 11px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
+/* 강의 블록 공통 스타일 */
 .class-block {
     position: absolute;
     background-color: #004098;
@@ -393,19 +236,19 @@
     justify-content: center;
 }
 
-.class-name {
-    font-weight: 500;
+.class-name, .professor-name {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.class-name {
+    font-weight: 500;
     margin-bottom: 2px;
 }
 
 .professor-name {
     font-size: 11px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .class-block:hover {
@@ -413,6 +256,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+/* 뒤로가기 버튼과 PDF 버튼 스타일 */
 .back-button, .pdf-button {
     padding: 10px 20px;
     margin: 10px;
@@ -437,6 +281,7 @@
     opacity: 0.9;
 }
 
+/* 선택된 시간표 내용 */
 .timetable-check-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -449,31 +294,9 @@
     font-size: 1.5rem;
 }
 
+/* 버튼 그룹 */
 .button-group {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
-}
-
-.back-button, .pdf-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 500;
-    transition: background-color 0.2s;
-}
-
-.back-button {
-    background-color: #4A6FA5;
-    color: white;
-}
-
-.pdf-button {
-    background-color: #6B8CC7;
-    color: white;
-}
-
-.back-button:hover, .pdf-button:hover {
-    opacity: 0.9;
 }
