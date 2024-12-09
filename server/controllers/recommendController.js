@@ -1,8 +1,8 @@
 const axios = require('axios');
 
 // FastAPI 서버 URL
-const majorAPIUrl = 'https://f954-35-245-146-186.ngrok-free.app/recommend'; //전공
-const generalAPIUrl = 'https://ab56-35-247-60-163.ngrok-free.app/recommend2'; //교양
+const majorAPIUrl = 'https://eb4f-34-106-10-62.ngrok-free.app/recommend'; //전공
+const generalAPIUrl = 'https://5cf5-34-125-9-40.ngrok-free.app/recommend2'; //교양
 
 
 

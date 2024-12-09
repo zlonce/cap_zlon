@@ -1,7 +1,10 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import TimetableGrid from './TimetableGrid';
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 import './timetable.css';
+import Layout from '../Layout/Layout';
 
 const TimetableCheck = () => {
     const location = useLocation();
@@ -16,20 +19,29 @@ const TimetableCheck = () => {
         navigate('/timetable');
     };
 
+    const handleSaveAsPDF = async () => {
+        const element = document.querySelector('.timetable-container');
+        if (!element) return;
+
+        try {
+            const canvas = await html2canvas(element);
+            const imgData = canvas.toDataURL('image/png');
+            const pdf = new jsPDF('p', 'mm', 'a4');
+            const pageWidth = pdf.internal.pageSize.getWidth();
+            const pageHeight = pdf.internal.pageSize.getHeight();
+            const imgWidth = pageWidth;
+            const imgHeight = (canvas.height * pageWidth) / canvas.width;
+
+            pdf.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight);
+
+            pdf.save('timetable.pdf');
+        } catch (error) {
+            console.error('PDF 저장 중 오류 발생:', error);
+        }
+    };
+
     return (
-        <div className="min-h-screen">
-            <header className="header">
-                <div className="header-container">
-                    <div className="logo-section">
-                        <img src="/logo2.png" alt="계명대학교 로고" className="logo" />
-                        <div className="logo-text">
-                            <div className="university-name-ko">계명대학교</div>
-                            <div className="university-name-en">KEIMYUNG UNIVERSITY</div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            
+        <Layout>
             <main className="main-content">
                 <div className="tables-wrapper">
                     <div className="timetable-container">
@@ -60,6 +72,7 @@ const TimetableCheck = () => {
                             </button>
                             <button 
                                 className="select-button"
+                                onClick={handleSaveAsPDF}
                                 style={{
                                     flex: 1,
                                     maxWidth: '150px',
@@ -75,8 +88,9 @@ const TimetableCheck = () => {
                     </div>
                 </div>
             </main>
-        </div>
+        </Layout>
     );
 };
 
 export default TimetableCheck;
+
