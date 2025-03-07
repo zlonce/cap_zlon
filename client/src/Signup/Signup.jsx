@@ -1,5 +1,6 @@
 import React from "react";
 import "./Signup.css";
+import "./SignupMedia.css";
 import { Link } from "react-router-dom";
 import Layout from "../Layout/Layout";
 
@@ -41,7 +42,7 @@ const Signup = () => {
           <label htmlFor="email">이메일</label>
           <input type="email" id="email" placeholder="이메일" />
         </div>
-        <div className="LoginLink">
+        <div className="LoginLink signup-form-group">
           <Link to="/">
             <button type="submit" className="signup-submit-button">
               확인
