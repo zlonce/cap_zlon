@@ -1,66 +1,69 @@
 .signup-header {
-    text-align: center;
-    color: #3d4a92;
-    margin-bottom: 20px;
+  text-align: center;
+  color: #3d4a92;
+  margin-bottom: 20px;
 }
 
 .signup-form-group {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 .signup-form-group label {
-    display: inline-block;
-    color: #666;
-    font-weight: bold;
+  display: inline-block;
+  color: #666;
+  font-weight: bold;
 }
 
 .signup-form-group input {
-    width: 350px;
-    padding: 0.5rem 0.75rem;
-    border: 2px solid #004098;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    color: #1F2937;
-    background: transparent;
-    transition: all 0.2s;
-    height: 36px;
-    box-sizing: border-box;
-    margin-bottom: 5px;
+  width: 350px;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #004098;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #1f2937;
+  background: transparent;
+  transition: all 0.2s;
+  height: 36px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.signup-input-id {
+  width: 350px;
 }
 
 .signup-check-button {
-    position: absolute;
-    float: right;
-    right: 200px;
-    padding: 2px 10px;
-    background: #3d4a92;
-    color: white;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    font-size: 0.95rem;
-    font-weight: 500;
+  position: absolute;
+  float: right;
+  right: 200px;
+  padding: 2px 10px;
+  background: #3d4a92;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
 .signup-submit-button {
-    position: relative;
-    width: 350px;
-    height: 36px;
-    background-color: #004098;
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 0.95rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    padding: 0;
-    margin: 20px auto 0; /* 버튼을 중앙에 배치 */
+  position: relative;
+  width: 350px;
+  height: 36px;
+  background-color: #004098;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  margin: 20px auto 0; /* 버튼을 중앙에 배치 */
 }
-
