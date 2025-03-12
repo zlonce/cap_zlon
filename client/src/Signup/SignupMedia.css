@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+    .signup-form-group input {
+      width: 320px;
+      margin-bottom: 15px;
+    }
+  
+    .signup-input-id {
+      width: 320px;
+    }
+  
+    .signup-input-id input {
+      flex: 1;
+      margin-bottom: 10px;
+    }
+  
+    .signup-check-button {
+      position: relative;
+      float: right;
+    }
+  }
