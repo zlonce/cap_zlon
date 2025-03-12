@@ -30,7 +30,6 @@ select {
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;
-
   padding-bottom: 1rem;
 }
 
@@ -77,6 +76,8 @@ select {
   gap: 0.25rem;
   height: 100%;
   align-items: flex-end;
+  border: 1px solid transparent;
+  font-family: inherit;
 }
 
 .nav-button {
@@ -93,6 +94,8 @@ select {
   min-width: 65px;
   user-select: none; /* 텍스트 선택 방지 */
   position: relative; /* 위치 기준 설정 */
+  border: 1px solid transparent;
+  font-family: inherit;
 }
 
 /* 버튼 활성 상태 스타일 */
@@ -146,7 +149,14 @@ select {
   padding: 2rem;
   width: 100%;
 }
-
+.creditselect-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #004098;
+}
 /* 드롭다운 그리드 */
 .dropdown-grid {
   display: grid;
@@ -194,6 +204,7 @@ select {
   font-size: 0.875rem;
   font-weight: 500;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .submit-button:hover {
@@ -219,6 +230,9 @@ select {
   position: absolute;
   top: 10px;
   right: 10px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-family: inherit;
 }
 
 /* 학점 선택 섹션 */
@@ -244,6 +258,7 @@ select {
   cursor: pointer;
   transition: all 0.2s;
   font-size: 14px;
+  font-family: inherit;
 }
 
 /* 선택된 버튼 스타일 */

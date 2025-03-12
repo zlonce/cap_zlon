@@ -119,12 +119,12 @@ function Main() {
           <div className="dropdown-grid-2">
             <div className="form-group">
               <label className="form-label">전공학점</label>
-              <button onClick={openModal}>전공학점 선택</button>
+              <button className="creditselect-button" onClick={openModal}>전공학점 선택</button>
             </div>
 
             <div className="form-group">
               <label className="form-label">교양학점</label>
-              <button onClick={openModal}>교양학점 선택</button>
+              <button className="creditselect-button" onClick={openModal}>교양학점 선택</button>
             </div>
           </div>
 
