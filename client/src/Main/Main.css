@@ -39,6 +39,7 @@ select {
   align-items: center;
   gap: 0.75rem;
   padding-bottom: 0.5rem;
+  border: 1px solid transparent;
 }
 
 .logo {
@@ -69,6 +70,9 @@ select {
   line-height: 1.2; /* 줄 간격 조정 */
 }
 
+.menu-button {
+  display: none;
+}
 /* 네비게이션 */
 
 .nav-buttons {
