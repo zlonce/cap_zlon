@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import FirstScreen from './FirstScreen/FirstScreen';
 import Faq from './Faq/Faq';
 import Loading from './Loading/Loading';
 import Login from './Login/Login';
@@ -13,6 +14,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Login />} /> {/* 로그인 페이지를 홈으로 설정 */}
+      <Route path="/firstscreen" element={<FirstScreen />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/loading" element={<Loading />} />
       <Route path="/faq" element={<Faq />} />

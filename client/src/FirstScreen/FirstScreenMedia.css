@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .first-container {
+      height: 60%;
+      width: 80%;
+    }
+    .first-title {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .first-content {
+      font-size: small;
+    }
+    .start-button {
+      padding: 0.3rem 1.5rem;
+      font-size: 0.7rem;
+    }
+  }
