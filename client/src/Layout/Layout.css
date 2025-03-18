@@ -23,6 +23,7 @@
     align-items: flex-end;
 }
 
+/*logo section 고정*/
 .logo-section {
     display: flex;
     align-items: center;
