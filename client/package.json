@@ -30,7 +30,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",
-    "vite": "^5.4.10"
+    "vite": "^5.4.11"
   },
   "description": "2024 캡스톤 디자인 프로젝트  https://www.notion.so/33c6b66c4f8f4a1ea48cc355f0c626d2",
   "main": "eslint.config.js",

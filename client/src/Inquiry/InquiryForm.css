@@ -1,0 +1,119 @@
+/* InquiryForm.css - 스타일 수정 */
+
+.inquiry-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inquiry-header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab-button.active {
+  background-color: #2d5dcc;
+  color: white;
+}
+
+.form-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #2d5dcc;
+  box-shadow: 0 0 5px rgba(45, 93, 204, 0.5);
+}
+
+.textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #2d5dcc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #1e3d9f;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  .inquiry-container {
+    padding: 15px;
+  }
+
+  .form-box {
+    padding: 15px;
+  }
+
+  .tab-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .input-field {
+    font-size: 13px;
+    padding: 8px;
+  }
+}

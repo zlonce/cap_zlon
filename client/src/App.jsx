@@ -9,6 +9,7 @@ import Editprofile from './Editprofile/Editprofile';
 import Main from './Main/Main';
 import TimetableDataSet from './Timetable/TimetableDataSet';
 import TimetableCheck from './Timetable/TimetableCheck';
+import InquiryForm from './Inquiry/InquiryForm';
 
 function App() {
   return (
@@ -18,11 +19,11 @@ function App() {
       <Route path="/signup" element={<Signup />} />
       <Route path="/loading" element={<Loading />} />
       <Route path="/faq" element={<Faq />} />
-      <Route path="/editprofile" element={<Editprofile/>} />
-      <Route path="/main" element={<Main/>} />
+      <Route path="/editprofile" element={<Editprofile />} />
+      <Route path="/main" element={<Main />} />
       <Route path="/timetable" element={<TimetableDataSet />} />
       <Route path="/timetablecheck" element={<TimetableCheck />} />
-      
+      <Route path="/inquiryForm" element={<InquiryForm />} /> {/* 문의하기 페이지 추가 */}
     </Routes>
   );
 }

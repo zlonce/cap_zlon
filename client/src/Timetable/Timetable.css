@@ -30,32 +30,13 @@
   margin-left: 1rem;
 }
 
-/* 반응형 디자인 */
-@media (max-width: 1400px) {
-  .tables-wrapper {
-    grid-template-columns: repeat(2, minmax(400px, 1fr));
-  }
-}
-
-@media (max-width: 900px) {
-  .tables-wrapper {
-    grid-template-columns: minmax(400px, 1fr);
-  }
-  .timetable-nav,
-  .timetable-content {
-    padding: 0 1rem;
-  }
-}
-
 /* 개별 시간표 컨테이너 */
 .timetable-container {
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
-  width: 100%;
   max-width: 420px;
-  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +48,6 @@
   grid-template-columns: 35px repeat(5, 65px);
   grid-template-rows: 25px repeat(11, 40px);
   gap: 1px;
-  width: fit-content;
   margin: 0 auto;
   position: relative;
 }
@@ -110,7 +90,6 @@
   font-size: 14px;
   border-radius: 5px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
@@ -120,11 +99,6 @@
   transform: scale(1.02);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-}
-
-.lecture-block:active {
-  transform: scale(0.99);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* 시간표 선택 버튼 */
