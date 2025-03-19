@@ -137,6 +137,7 @@ select {
 .main-title {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
+  padding-top: 5rem;
   color: #004098;
 }
 

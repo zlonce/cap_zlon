@@ -4,6 +4,7 @@ import "./Main.css"; // 스타일 파일 임포트
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./MainMedia.css";
+import "../Faq/Faq";
 
 Modal.setAppElement("#root"); // 모달을 사용할 루트 엘리먼트 지정
 
@@ -80,7 +81,9 @@ function Main() {
             <button className="nav-button">로그인</button>
             <button className="nav-button">프로필 수정</button>
             <button className="nav-button">설명</button>
-            <button className="nav-button">문의하기</button>
+            <button className="nav-button" onClick={() => navigate("/faq")}>
+              문의하기
+            </button>
           </nav>
         </div>
       </header>
