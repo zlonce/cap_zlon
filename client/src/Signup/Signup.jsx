@@ -5,14 +5,6 @@ import { Link } from "react-router-dom";
 import Layout from "../Layout/Layout";
 
 const Signup = () => {
-  const handleCheckUsername = () => {
-    alert("사용가능한 아이디입니다!");
-  };
-
-  const handleSignupSubmit = () => {
-    alert("회원가입이 완료되었습니다!");
-  };
-
   return (
     <Layout>
       <div className="signup-header">
@@ -22,15 +14,13 @@ const Signup = () => {
         <div className="signup-form-group">
           <div>
             <label htmlFor="username">아이디</label>
-            <button
-              type="button"
-              className="signup-check-button"
-              onClick={handleCheckUsername}
-            >
+          </div>
+          <div className="signup-input-id">
+            <input type="text" id="username" placeholder="아이디" />
+            <button type="button" className="signup-check-button">
               중복확인
             </button>
           </div>
-          <input type="text" id="username" placeholder="아이디" />
         </div>
         <div className="signup-form-group">
           <label htmlFor="password">비밀번호</label>
@@ -52,13 +42,9 @@ const Signup = () => {
           <label htmlFor="email">이메일</label>
           <input type="email" id="email" placeholder="이메일" />
         </div>
-        <div className="LoginLink">
+        <div className="LoginLink signup-form-group">
           <Link to="/">
-            <button
-              type="button"
-              className="signup-submit-button"
-              onClick={handleSignupSubmit}
-            >
+            <button type="submit" className="signup-submit-button">
               확인
             </button>
           </Link>

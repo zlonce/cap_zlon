@@ -143,11 +143,17 @@
 
   .main-modal {
     width: 95%;
+    position: flex;
+    align-items: flex-end;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-y: auto;
   }
 
   .modal-button {
-    top: auto;
-    right: 5px;
-    bottom: 10px;
+    position: sticky;
+    margin: 0 auto;
+    width: 100%;
   }
 }

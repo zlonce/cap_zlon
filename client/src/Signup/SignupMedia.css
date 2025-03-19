@@ -1,8 +1,4 @@
 @media screen and (max-width: 768px) {
-  .signup-header {
-    margin-top: 150px;
-  }
-
   .signup-form-group input {
     width: 320px;
     margin-bottom: 15px;
