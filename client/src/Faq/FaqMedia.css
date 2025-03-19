@@ -1,0 +1,28 @@
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  .faq-container {
+    width: 100%;
+  }
+  .inquiry-container {
+    padding: 15px;
+  }
+
+  .form-box {
+    padding: 15px;
+  }
+
+  .tab-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .input-field {
+    font-size: 13px;
+    padding: 8px;
+  }
+}

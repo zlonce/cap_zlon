@@ -1,0 +1,43 @@
+.faq-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.faq-search {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.faq-search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.faq-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.faq-table th,
+.faq-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.faq-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}

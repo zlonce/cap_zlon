@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
-import "./login.css";
+import { Link } from "react-router-dom";
+import "./Login.css";
 import Layout from "../Layout/Layout";
 
 export default function Login() {
@@ -15,13 +15,20 @@ export default function Login() {
           <div className="login-form">
             <div className="input-wrapper">
               <input type="text" placeholder="ID" className="login-input" />
-              <input type="password" placeholder="Password" className="login-input" />
+              <input
+                type="password"
+                placeholder="Password"
+                className="login-input"
+              />
             </div>
-            <Link to='/Main' className="login-button-link">
+            <Link to="/Main" className="login-button-link">
               <button className="submit-button">로그인</button>
             </Link>
             <div className="signup-link">
-              처음이세요? <Link to="/Signup" className="signup-text">회원가입</Link>
+              처음이세요?{" "}
+              <Link to="/Signup" className="signup-text">
+                회원가입
+              </Link>
             </div>
           </div>
         </div>
