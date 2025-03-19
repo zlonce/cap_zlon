@@ -66,6 +66,7 @@ select {
 .university-name-en {
   font-size: 0.85rem;
   color: #4b5563;
+  color: #4b5563;
   text-align: left; /* 영문 이름 왼쪽 정렬 */
   line-height: 1.2; /* 줄 간격 조정 */
 }

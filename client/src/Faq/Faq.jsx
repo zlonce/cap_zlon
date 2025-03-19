@@ -1,63 +1,60 @@
-import React from 'react';
-import './Faq.css';
-import { Link } from "react-router-dom"; 
+import React, { useState, useEffect } from "react";
 import Layout from "../Layout/Layout";
+import InquiryForm from "./InquiryForm/InquiryForm";
+import Description from "./Description/Description";
+import FaqList from "./FaqList/FaqList";
+import "./Faq.css";
+import "./FaqMedia.css";
 
-function Faq() {
+export default function Faq() {
+  const [activeTab, setActiveTab] = useState("자주 묻는 질문");
+  const [content, setContent] = useState(<FaqList />);
+
+  useEffect(() => {
+    switch (activeTab) {
+      case "자주 묻는 질문":
+        setContent(<FaqList />);
+        break;
+      case "문의하기":
+        setContent(<InquiryForm />);
+        break;
+      case "서비스 설명":
+        setContent(<Description />);
+        break;
+      default:
+        setContent(<InquiryForm />);
+    }
+  }, [activeTab]);
+
   return (
     <Layout>
-      <div className="faq-page">
-        {/* 상단 네비게이션 바 */}
-        <div className="faq-navbar">
-          <div className="faq-navbar-title">문의하기</div>
-        </div>
-
-        {/* 가로 구분선 */}
-        <div className="faq-divider-horizontal"></div>
-        
-        {/* FAQ 콘텐츠 영역 */}
-        <div className="faq-content">
-          {/* 자주 묻는 질문 섹션 */}
-          <div className="faq-section">
-            <h2>자주 묻는 질문</h2>
-            <div className="faq-search-bar">
-              <input type="text" placeholder="검색할 키워드를 입력해주세요" />
-              <button>🔍</button>
-            </div>
-            <div className="faq-list">
-              <div className="faq-item">키워드 1</div>
-              <div className="faq-item">키워드 2</div>
-              <div className="faq-item">키워드 3</div>
-              <div className="faq-item">키워드 4</div>
-            </div>
-          </div>
-
-          {/* 세로 구분선 */}
-          <div className="faq-divider"></div>
-
-          {/* 사용자 정보 및 서비스 진행도 */}
-            <div className="faq-user-info">
-            <div className="faq-user-profile">
-              <p>사용자 님</p>
-              <Link to= '/'>
-              <button className="faq-logout-button">로그아웃</button>
-              </Link>
-            </div>
-
-
-            {/* 서비스 진행도 */}
-            <div className="faq-service-progress">
-              <h2>서비스 진행도</h2>
-              <div className="faq-service-status">
-                <div className="faq-status-item">항목 1</div>
-                <div className="faq-status-item">항목 2</div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="faq-header">
+        <button
+          className={`tab-button ${
+            activeTab === "자주 묻는 질문" ? "active" : ""
+          }`}
+          onClick={() => setActiveTab("자주 묻는 질문")}
+        >
+          자주 묻는 질문
+        </button>
+        <button
+          className={`tab-button ${activeTab === "문의하기" ? "active" : ""}`}
+          onClick={() => setActiveTab("문의하기")}
+        >
+          문의하기
+        </button>
+        <button
+          className={`tab-button ${
+            activeTab === "서비스 설명" ? "active" : ""
+          }`}
+          onClick={() => setActiveTab("서비스 설명")}
+        >
+          서비스 설명
+        </button>
       </div>
-      </Layout>
+      <div className="faq-container">
+        <div className="main-content">{content}</div>
+      </div>
+    </Layout>
   );
 }
-
-export default Faq;
